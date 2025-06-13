@@ -1,3 +1,4 @@
+import Dashboard from './components/Dashboard';
 import PricingCard from './components/PricingCard';
 import './styles.css';
 
@@ -75,6 +76,9 @@ function App() {
           </div>
         </div>
       </div>
+
+
+      <Dashboard />
     </div>
   );
 }
